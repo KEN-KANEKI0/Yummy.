@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.secondary-button {
+    display: flex;
+    flex-direction: column;
+    background-color: #ce1212;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: ease-in-out .3s;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.secondary-button:hover {
+    background-color: white;
+    color: #ce1212;
+}
+.whyMEOuterWrapper {
+    padding: 90px 0;
+    background-color: #e9ecef;
+}
+
+.whyMEOuterWrapper  .whyMEInnerWrapper {
+    width: 100%;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe {
+    display: flex;
+    flex-direction: column;
+    background-color: #ce1212;
+    color: #fff;
+    width: 27%;
+    padding: 30px 30px;
+    align-items: center;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe h3 {
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+    line-height: calc(48/34);
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: calc(24/16);
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe h3 {
+    text-transform: capitalize;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe div a {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMe div a:hover {
+    background: #fff;
+    color: #ce1212;
+}
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo {
+    display: flex;
+    flex-direction: row;
+    width: calc((100% - 27%) - 100px);
+    justify-content: space-between;
+}
+
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo {
+    padding: 40px 30px;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 23%;
+    min-height: 307px;
+    background: white;
+    transition: ease-in-out .3s;
+}
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo:hover{
+    transform: scale(1.1);
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo .iconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50%;
+    position: relative;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo .iconBox span {
+    color: #ce1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.whyMEOuterWrapper .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo .iconBox span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgba(206, 18, 18, 0.1);
+}
+
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo p {
+    font-size: 15px;
+    color: #6c757d;
+    line-height: calc(22/15);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}

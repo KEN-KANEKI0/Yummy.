@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter:wght@700&family=Nunito:wght@300;600&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.scOuterWrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+.scOuterWrapper .container .scInnerWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scOuterWrapper .container .scInnerWrapper .count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scOuterWrapper .container .scInnerWrapper .count span {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+}
+
+.scOuterWrapper .container .scInnerWrapper .count p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+
+}

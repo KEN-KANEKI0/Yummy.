@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.menuOuterWrapper {
+    padding: 80px 0;
+    background: white;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader span {
+    color: #ce1212;
+    font-family: inherit;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li {
+    margin: 0 10px;
+    padding: 10px 5px;
+    border-bottom: 2px solid #b6b6bf;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise .menuActive {
+    color: #ce1212;
+    border-bottom: 2px solid #ce1212 !important;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li:hover {
+    border-bottom: 2px solid #e3e3e5;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a h4 {
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a:hover {
+    color: #ce1212;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish {
+    padding: 30px 0;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #676775;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ce1212;
+    font-family: "Inter", sans-serif;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic {
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic a {
+    width: 285px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic a img {
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic .ingr {
+    color: #8d8d9b;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ce1212;
+    font-family: "Open Sans", system-ui;
+    padding-bottom: 20px;
+}
+
+.menuDishPic:hover {
+    background: radial-gradient(circle, rgb(255 255 255) 0%, rgb(206 18 18 / 10%) 100%);
+    border-radius: 4%;
+    transition: ease-in-out .3s;
+    
+}
